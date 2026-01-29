@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SL-reasoner/SensibLaw/src/text/nlp.py
+# hypothesis_version: 6.150.2
+
+['LanguageDetector', 'Pipeline', 'SimpleDoc', 'SpacyNLP', 'TikaLanguageDetector', '__label__', 'auto', 'available', 'blank', 'en', 'en_core_web_sm', 'fasttext', 'from_buffer', 'load', 'load_model', 'predict', 'spacy', 'stanza', 'tika.language', 'tokenize,pos,lemma', 'utf-8']

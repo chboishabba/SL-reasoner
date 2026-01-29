@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SL-reasoner/SensibLaw/src/obligation_graph.py
+# hypothesis_version: 6.150.2
+
+['ObligationGraph', 'except', 'if', 'obligations_for', 'provided', 'subject', 'unless', 'until', 'upon', 'when', 'where']

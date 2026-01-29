@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SensibLaw/src/tools/glossary.py
+# hypothesis_version: 6.150.2
+
+['#', ':', 'TermRewriter', 'as_table', 'data', 'glossary.yaml', 'load_glossary', 'lookup', 'rewrite_text']

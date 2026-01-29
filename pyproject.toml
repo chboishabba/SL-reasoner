@@ -1,0 +1,9 @@
+[project]
+name = "sensiblaw-interpretation"
+version = "0.0.0"
+description = "Interpretive/hypothetical layer kept separate from SensibLaw core."
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.ruff]
+line-length = 100

@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SL-reasoner/SensibLaw/src/crossdoc_topology.py
+# hypothesis_version: 6.150.2
+
+['-clause-', 'CROSSDOC_VERSION', 'applies_despite', 'applies_subject_to', 'clause_id', 'conflicts_with', 'edges', 'exception_to', 'from', 'kind', 'nodes', 'obl_id', 'provenance', 'source_id', 'supersedes', 'text', 'to', 'version']

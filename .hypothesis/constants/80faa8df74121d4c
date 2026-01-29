@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SL-reasoner/SensibLaw/src/briefing/__init__.py
+# hypothesis_version: 6.150.2
+
+['AuthoritySlot', 'BriefPack', 'BriefPackBuilder', 'BundleIssue', 'BundleReport', 'CounterArgument', 'CounterEvidence', 'CoverageGrid', 'CoverageRow', 'IssueProfile', 'IssueSkeleton', 'MatterAuthority', 'MatterExhibit', 'MatterFactor', 'MatterProfile', 'SkeletonSection']

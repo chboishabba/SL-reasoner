@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SL-reasoner/SensibLaw/src/distinguish/loader.py
+# hypothesis_version: 6.150.2
+
+['distinguish_glj', 'examples', 'fact_tags', 'glj', 'glj_silhouette.json', 'holding_hints', 'paragraphs']

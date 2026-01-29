@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SL-reasoner/SensibLaw/src/austlii_client.py
+# hypothesis_version: 6.150.2
+
+[0.0, 1.0, 200, '-', '.', './/item', '/', '<.*?>', '<h1[^>]*>(.*?)</h1>', 'AU', 'Fetching %s', 'Fetching RSS feed %s', 'Fetching judgment %s', 'User-Agent', '[-\\s]+', '[^\\w\\s-]', 'austlii', 'cache', 'data', 'judgments', 'legislation', 'link', 'title', 'utf-8', 'w']

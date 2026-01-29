@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SL-reasoner/SensibLaw/src/culture/__init__.py
+# hypothesis_version: 6.150.2
+
+['CulturalOverlay', 'get_default_overlay']

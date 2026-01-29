@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SL-reasoner/SensibLaw/src/glossary/service.py
+# hypothesis_version: 6.150.2
+
+[' \t\n,.!?;:\'"()', '.json', '.yaml', '.yml', 'GlossEntry', 'data', 'elements', 'gloss', 'glossary', 'lookup', 'metadata', 'offence_gloss.yaml', 'r', 'text', 'utf-8']

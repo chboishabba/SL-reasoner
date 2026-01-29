@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SensibLaw/src/sensiblaw/db/migrations.py
+# hypothesis_version: 6.150.2
+
+['*.sql', 'database', 'migrations']

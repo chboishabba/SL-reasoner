@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SL-reasoner/SensibLaw/src/obligation_alignment.py
+# hypothesis_version: 6.150.2
+
+['AlignmentDelta', 'AlignmentReport', 'action', 'actor', 'added', 'align_obligations', 'alignment_to_payload', 'changes', 'field', 'identity_hash', 'lifecycle', 'modality', 'modified', 'new', 'object', 'old', 'reference_identities', 'removed', 'scopes', 'unchanged', 'version']

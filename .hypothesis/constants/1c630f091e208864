@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SL-reasoner/SensibLaw/src/nlp/spacy_adapter.py
+# hypothesis_version: 6.150.2
+
+['Doc', 'Language', 'SENT_START', 'Span', 'Token', 'dep', 'en', 'en_core_web_sm', 'end', 'lemma', 'lemmatizer', 'lookup', 'mode', 'ner', 'parse', 'parser', 'pos', 'sentencizer', 'senter', 'sents', 'spacy', 'start', 'text', 'tokens']

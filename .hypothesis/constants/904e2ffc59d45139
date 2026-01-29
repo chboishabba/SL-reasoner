@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SensibLaw/src/sensiblaw/db/dao.py
+# hypothesis_version: 6.150.2
+
+[' AND ', 'WHERE ', 'WHERE sys.code = ?', 'cat.code = ?', 'citation', 'code', 'description', 'id', 'label', 'legal_system_code', 'source_url', 'summary', 'sys.code = ?', 'title']

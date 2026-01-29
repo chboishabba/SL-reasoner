@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SL-reasoner/SensibLaw/src/graph/hierarchy.py
+# hypothesis_version: 6.150.2
+
+['COURT_RANKS', 'FCA', 'FCAFC', 'HCA', 'court_weight']

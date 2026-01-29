@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SL-reasoner/SensibLaw/src/ingestion/anchors.py
+# hypothesis_version: 6.150.2
+
+['AnchorResult', 'claimant', 'defence', 'individual', 'plaintiff', 'prosecution', 'respondent', 'state_actor', 'unknown', 'unknown_actor']

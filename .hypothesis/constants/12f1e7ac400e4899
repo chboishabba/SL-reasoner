@@ -1,0 +1,4 @@
+# file: /home/c/Documents/code/SL-reasoner/SensibLaw/src/distinguish/factors.py
+# hypothesis_version: 6.150.2
+
+['abuse', 'abuse_indicators', 'abuse_of_process', 'delay', 'held\\s*:\\s*yes', 'lost_evidence', 'prejudice']
