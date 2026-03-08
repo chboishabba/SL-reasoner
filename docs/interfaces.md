@@ -2,6 +2,8 @@
 
 ## Intersections
 - Consumes `SensibLaw/` core payloads in read-only mode.
+- May consume `SensibLaw` Wikipedia revision pair reports as read-only
+  hypothesis inputs.
 - Produces optional interpretive artifacts for ITIR analysis tools.
 - Feeds hypothesis context to `StatiBaker/` and operator workflows.
 
@@ -14,6 +16,8 @@
 ## Exchange Channels
 ### Channel A: Core Payload Ingress
 - Input: obligation/activation/topology-like core bundles.
+- Input may also include bounded Wikipedia revision pair reports and issue
+  packets from `SensibLaw`.
 - Constraint: no writes back to core payload stores.
 
 ### Channel B: Assumption/Policy Ingress
