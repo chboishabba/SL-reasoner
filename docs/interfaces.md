@@ -4,6 +4,8 @@
 - Consumes `SensibLaw/` core payloads in read-only mode.
 - May consume `SensibLaw` Wikipedia revision pair reports as read-only
   hypothesis inputs.
+- May consume `SensibLaw` contested-region graph summaries/cycle refs as
+  read-only hypothesis inputs.
 - Produces optional interpretive artifacts for ITIR analysis tools.
 - Feeds hypothesis context to `StatiBaker/` and operator workflows.
 
