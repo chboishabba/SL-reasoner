@@ -10,9 +10,16 @@ When implemented, adapters must:
 
 from __future__ import annotations
 
+from types import MappingProxyType
 from typing import Any, Mapping
 
 
 def as_read_only(payload: Mapping[str, Any]) -> Mapping[str, Any]:
-    """Return the payload as-is; callers must not mutate the result."""
-    return payload
+    """
+    Return a shallow read-only view of the payload.
+
+    This enforces a minimal "read-only" boundary for the interpretive layer:
+    callers cannot mutate the returned mapping in-place. (Nested values may
+    still be mutable; deep-freezing is intentionally out of scope here.)
+    """
+    return MappingProxyType(dict(payload))

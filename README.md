@@ -29,3 +29,6 @@
 2. Implement adapters in `interpretation/inputs.py` to ingest core payloads read-only.
 3. Add evaluators under `interpretation/evaluators/` that always emit explicit assumptions + disclaimer.
 4. Keep tests that fail if any core import is write-capable or if outputs miss disclaimers.
+
+Initial posture: start by trying **Lila** as the first interpretation engine, and keep outputs explicitly
+labeled as interpretive/hypothetical (never fed back into core).
