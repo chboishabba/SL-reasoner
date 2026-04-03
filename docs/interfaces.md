@@ -1,5 +1,32 @@
 # SL-reasoner Interface Contract (Intended)
 
+## Status Note
+
+This is still an intended boundary, not the main live execution path.
+
+At the moment:
+
+- `SensibLaw` still performs most substantive deterministic reasoning,
+  review, and promotion work
+- `SL-reasoner` remains a read-only interpretive scaffold
+- the suite should not force work into this repo prematurely
+
+Operational rule:
+
+- keep this repo low priority until the core engine is sound
+- use it later for optional interpretive overlays only if the split becomes
+  materially useful
+
+Current approved seam:
+
+- producer-owned repos may export a `reasoner_input_artifact`
+  payload for `SL-reasoner`
+- current first adopter is `SensibLaw` AU fact-review via
+  `semantic_context.reasoner_input_artifact`
+- `SL-reasoner` may validate and consume that payload read-only
+- `SL-reasoner` outputs remain derived-only and non-authoritative
+- no promotion, reducer, or compiled-state ownership crosses this seam
+
 ## Intersections
 - Consumes `SensibLaw/` core payloads in read-only mode.
 - May consume `SensibLaw` Wikipedia revision pair reports as read-only
@@ -33,3 +60,10 @@
 ### Channel D: Audit Egress
 - Output: trace of inputs, assumptions, and evaluator decisions.
 - Consumer: review tooling and reproducibility checks.
+
+## Non-Goals For Now
+
+- becoming a second canonical reducer
+- absorbing active deterministic review/promotion code just for neatness
+- leading suite priority ahead of producer/state/operator normalization
+- turning the new adapter seam into an immediate extraction mandate

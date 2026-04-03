@@ -6,4 +6,4 @@ explicitly interpretive outputs with disclaimers. No compliance or precedence lo
 may flow back into core.
 """
 
-__all__ = ["inputs", "hypotheses", "outputs"]
+__all__ = ["contracts", "inputs", "hypotheses", "outputs"]
